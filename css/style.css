@@ -898,8 +898,10 @@ pre {
   .col-md-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%; }
+    flex: 20px 20x 50%;
+    max-width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .col-md-7 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 58.33333%;
@@ -9277,12 +9279,12 @@ textarea.form-control {
   .ftco-section .nav-pills .nav-link {
     border-radius: 0;
     margin-bottom: 0;
-    color: #6927ff;
+    color: #36c9ea;
     font-size: 18px;
     font-weight: 600;
     position: relative;
     display: inline-block;
-    border: 1px solid #d3c0ff;
+    border: 1px solid #36c9ea;
     margin-left: 5px;
     margin-right: 5px;
     -webkit-border-radius: 5px;
@@ -9296,7 +9298,7 @@ textarea.form-control {
       -webkit-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease;
-      background: #38d39f;
+      background: #0b19de;
       border: 1px solid transparent; }
       .ftco-section .nav-pills .nav-link.active:after, .ftco-section .nav-pills .nav-link:hover:after {
         opacity: 1; }
